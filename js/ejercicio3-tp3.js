@@ -10,8 +10,6 @@ for(let i = 0; i<50 ; i++){
      posibilidad[suma-2]++;
 }
 
-document.write("<hr>");
-
 for (let i=0; i<posibilidad.length; i++){
-    document.write(`El valor de la suma=${i+2} aparece un numero total de ${posibilidad[i]} <br>`);
+    document.write(`<br>El valor de la suma=${i+2} aparece un numero total de ${posibilidad[i]}`);
 }
